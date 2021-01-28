@@ -53,6 +53,7 @@
         "webpack-merge": "^5.7.3"
     },
     "dependencies": {
+        "eslint-config-indexyz": "^1.0.2",
         "normalize.css": "^8.0.1",
         "vue": "^2.6.12",
         "vue-property-decorator": "^9.1.2",

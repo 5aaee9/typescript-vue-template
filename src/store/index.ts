@@ -13,6 +13,4 @@ const store = new Vuex.Store({
     plugins: [ persistedstate() ],
 })
 
-// @ts-ignore
-window.$store = store
 export default store

@@ -5,10 +5,10 @@ import { Module, VuexModule, Mutation } from 'vuex-module-decorators'
     namespaced: true,
 })
 export default class Auth extends VuexModule {
-    token: string = ''
+    token = ''
 
     @Mutation
-    setToken(token: string) {
+    setToken(token: string): void {
         this.token = token
     }
 }

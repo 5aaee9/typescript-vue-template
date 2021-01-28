@@ -1,0 +1,11 @@
+
+{
+    "extends": "indexyz/vue",
+    "parserOptions": {
+        "project": "./tsconfig.json",
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "extraFileExtensions": [".vue"]
+    }
+}
