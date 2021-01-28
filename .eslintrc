@@ -1,5 +1,8 @@
 
 {
+    "env": {
+        "node": true
+    },
     "extends": "indexyz/vue",
     "parserOptions": {
         "project": "./tsconfig.json",
